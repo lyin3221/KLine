@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ma5">#FF0000FF</color>
+    <color name="ma10">#E9967A</color>
+    <color name="ma20">#8d4bbb</color>
+    <color name="ma30">#804000</color>
+
+    <color name="minute_grayLine">#2D3945</color>
+    <color name="minute_blue">#5198FA</color>
+    <color name="minute_yellow">#E7B448</color>
+    <color name="minute_black">#101419</color>
+    <color name="minute_jizhun">#7F9976</color>
+    <color name="minute_zhoutv">#858D93</color>
+    <color name="marker_bg">#1C232E</color>
+    <color name="test">#D0F1FF</color>
+    <color name="selected_color">#DCDCDC</color>
+
+    <color name="sys_light_gray">#FFCCCCCC</color>
+    <color name="sys_green">#FF00FF00</color>
+    <color name="sys_yellow">#FFFFFF00</color>
+    <color name="sys_blue">#FF0000FF</color>
+    <color name="sys_orange">#E9967A</color>
+    <color name="sys_pu">#8d4bbb</color>
+    <color name="sys_brown">#804000</color>
+    <color name="s_brown">#aa424242</color>
+</resources>

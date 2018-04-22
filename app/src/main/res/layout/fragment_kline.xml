@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/bar_chart_frame"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true">
+        <com.study.lyds.kline.chart.LyCombinedChart
+            android:id="@+id/barchart"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+        <TextView
+            android:id="@+id/chart_type_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#888888"
+            android:textSize="10sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="13dp"
+            android:text="VOL"/>
+    </FrameLayout>
+
+    <com.study.lyds.kline.chart.KCombinedChart
+        android:id="@+id/combinedchart"
+        android:layout_above="@id/bar_chart_frame"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+</RelativeLayout>
